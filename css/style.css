@@ -1,0 +1,29 @@
+.hero-section {
+    background: url('https://images.pexels.com/photos/16783672/pexels-photo-16783672.jpeg?_gl=1*as809g*_ga*ODgyNDQyMDAyLjE3NDc2NzAyNTE.*_ga_8JE65Q40S6*czE3NTkyMzkyMjgkbzgkZzEkdDE3NTkyMzk1NTMkajU5JGwwJGgw') center/cover no-repeat;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay for readability */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem; /* You can adjust this to 4rem if needed */
+    font-weight: bold;
+  }
+  
+  .hero-content .lead {
+    font-size: 1.75rem; /* Default is ~1.25rem for .lead */
+  }
+  
